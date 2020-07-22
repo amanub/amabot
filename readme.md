@@ -18,7 +18,7 @@
 
 ## Conceptos Básicos
 
-[ir al capítulo](./conceptosBasicos/0-introduccion.md)
+[ir al capítulo](./conceptosBasicos/)
 - Introducción
 - variables
   - declaracion de variables
