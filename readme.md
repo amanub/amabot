@@ -57,17 +57,16 @@
 
 
 ## Programacion orientada a objetos
+[ir al capítulo](./ProgramacionOO(OOP)/)
 - Importancia
 - Pilares de la OOP
   - Polimorfismo
   - Encapsulamiento
   - Abstraccion
   - Herencia
-- De qué se trata realmente la POO?
-  - Mensajes, mensajeros y mensajeantes
 - Clases
   - Herencia
-  - Restriccion de acceso
+  - Getters y setters
 - Objetos
   - Instancia (instanciamiento)
   - this?	
