@@ -24,6 +24,6 @@ el evento "channelCreate" nos pasa en el **callback** el canal que se creó (DMC
 
 ![](images/GuildChannel.png)
 
-Así como usamos el evento "channelCreate" podemos usar todos los eventos de la clase **Client** simplemente mencionando el nombre como primer parámetro del método **on()** y la función que queremos ejecutar como segundo parámetro, a continuación se listan todos los eventos de la clase Client, para más información consultar la [documentación oficial](https://discord.js.org/#/docs/main/stable/general/welcome).
+Así como usamos el evento "channelCreate" podemos usar todos los eventos de la clase **Client** simplemente mencionando el nombre del evento como primer parámetro del método **on()** y la función que queremos ejecutar como segundo parámetro, a continuación se listan todos los eventos de la clase Client, para más información consultar la [documentación oficial](https://discord.js.org/#/docs/main/stable/general/welcome).
 
 ![](images/EventList.png)

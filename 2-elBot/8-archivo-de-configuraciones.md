@@ -1,5 +1,5 @@
 # Archivo de configuración
-Hasta ahora hemos puesto nuestro token y el prefijo en el archivo principal, sin embargo esto puede ser considerado una mala práctica, por lo que ahora reestructuraremos nuestro código para tomar las configuraciones de un archivo externo, el cual estará en formato JSON
+Hasta ahora hemos puesto nuestro token y el prefijo en el archivo principal, sin embargo esto puede ser considerado una mala práctica, por lo que ahora reestructuraremos nuestro código para tomar las configuraciones de un archivo externo, el cual estará en formato **JSON**
 
 Crearemos un archivo llamado config.json donde crearemos un objeto JSON con las llaves "token", y "prefix" como el siguiente:
 
@@ -20,9 +20,9 @@ ahora el objeto *config* contendrá todas nuestras configuraciones y podran ser 
 ```js
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const config = require('./config.json')
+const config = require('./config.json') // cargamos el archivo de configuración
 
-const prefix = config.prefix
+const prefix = config.prefix // obtenemos el prefijo desde el archivo de configuración
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -39,7 +39,7 @@ client.on('message', ctx => {
     } 
 })
 
-client.login(config.token);
+client.login(config.token); // obtenemos el token del bot desde el archivo
 ```
 
-**Nota:** esto se hace para que al momento de subir nuestro bot a un repositorio no se exponga nuestro token y sea más facil la configuración de nuestro bot.
+**Nota:** Esto se hace para que al momento de subir nuestro bot a un repositorio no se exponga nuestro token, además hace que sea más facil la configuración de nuestro bot.
