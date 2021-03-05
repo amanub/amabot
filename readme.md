@@ -86,8 +86,9 @@
 - Hola Discord	
 - eventos
 - prefijo
-- comando
-- argumentos
+- archivo de configuraciones
+- comandos y argumentos
+- comandos con argumentos
 - funciones
 - respondiendo Mensajes
   - formateando mensajes
