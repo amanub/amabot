@@ -1,3 +1,5 @@
+*En desarrollo
+
 # Temario
 - [Prerequisitos](#prerequisitos)
 - [Conceptos Básicos](#conceptos-básicos)
@@ -6,6 +8,7 @@
 - [debuggear*](#debuggear)
 
 ## Prerequisitos
+- Git Bash
 - NodeJS
 - NPM
   - npm install
@@ -24,7 +27,6 @@
   - declaracion de variables
   - tipos de datos
 - Casting de tipos
-  - this (A.K.A "self" A.K.A. "that")
 - operadores aritmeticos
 - comparaciones y operadores logicos
 - contexto (scope)
@@ -35,8 +37,8 @@
   - switch
 - estructuras de repeticion
   - for loop
-  - for in
-  - for of
+  - for in*
+  - for of*
   - while
   - do while
 
@@ -46,11 +48,12 @@
   
 - Estás listo para trabajar en google?
 
-- objetos de js (Javascript object notation(JSON))	
 - Arreglos
   - Arreglos de objetos
+- Objetos de JS 
+- JavaScript Object Notation(JSON)
 - Ejercicios con arreglos
-- clases (o por que no existen)*
+- Clases (o por que no existen)*
 - promesas*
 - async / await*	
 
@@ -75,6 +78,7 @@
 
 
 ## Y el bot? Yo vine por el bot?
+- Creando un nuevo proyecto
 - Application programming interface (API)
 - API de Discord (o por que preferimos no usarla)
 - Discord JS (las librerias son tus amigas)
