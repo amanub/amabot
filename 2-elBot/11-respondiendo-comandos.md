@@ -1,19 +1,20 @@
 # Respondiendo comandos
-Ahora que ya sabemos cómo identificar si el mensaje empieza con el prefijo predefinido y sabemos extraer el comando y argumentos del mensaje, es tiempo de realizar las acciones apropiadas de acuerdo al comando, si nos mandan un mensaje '!hello' debemos responder con 'World!' y si nos mandan un mensaje '!roll 2 5' debemos mostrar el resultado de tirar dos dados de 5 caras y así dependiendo del comando deberemos dar la resúesta correcta
+Ahora que ya sabemos cómo identificar si el mensaje empieza con el prefijo predefinido y sabemos extraer el comando y argumentos del mensaje, es tiempo de realizar las acciones apropiadas de acuerdo al comando, si nos mandan un mensaje '*!hello*' debemos responder con '*World*!' y si nos mandan un mensaje '*!roll 2 5*' debemos mostrar el resultado de tirar dos dados de 5 caras y dependiendo del comando que nos envíen deberemos dar la resúesta correcta.
 
-Primero identificaremos que el comando exista, usando la función *.indexOf()* el cual toma un elemento y nos devuelve el indice del elemento en caso de haberlo encontrado, y nos devuelve -1 en caso de no haberlo encontrado.
+Primero identificaremos que el comando exista, usando la función **.indexOf()** el cual toma un elemento y nos devuelve el indice del elemento en caso de haberlo encontrado en un arreglo, o nos devuelve -1 en caso de no haberlo encontrado.
 
-para eso crearemos un arreglo con los comandos válidos de nuestro bot
+Para eso crearemos un arreglo con los comandos válidos de nuestro bot
 
 ```js
 let commands = ["hello","roll"]
 ```
-ahora verificaremos que el comando que nos envió en usuario después del prefijo, el cual extrajimos en la leccion de comandos y argumentos, existe con indexOf:
+ahora verificaremos que el comando que nos envió en usuario después del prefijo está dentro de nuestro arreglo, usando la función indexOf( ):
 
 ```js
+let command = 'hello'
 let commandIndex = commands.indexOf(command)
 ```
-Después de verificar que el mensaje empieza con el prefijo podemos seguir con la respuesta de nuestro bot dependiendo de el caso, usaremos una estructura switch en el indice de nuestro comando y responderemos de acuerdo a lo solicitado.
+Después de verificar que el mensaje empieza con el prefijo y el comando que mandaron existe dentro del arreglo de comandos, podemos seguir con la respuesta de nuestro bot dependiendo de el caso, usaremos una estructura switch en el indice de nuestro comando y responderemos de acuerdo a lo solicitado.
 
 ```js
 if (startsWithPrefix) {

@@ -88,9 +88,8 @@
 - prefijo
 - archivo de configuraciones
 - comandos y argumentos
-- comandos con argumentos
-- funciones
-- respondiendo Mensajes
+- comandos con argumentos (funciones)
+- respondiendo comandos
   - formateando mensajes
 - miembros
   - banear/desbanear
