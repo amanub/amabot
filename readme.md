@@ -21,7 +21,7 @@
 
 ## Conceptos Básicos
 
-[ir al capítulo](./conceptosBasicos/)
+[ir al capítulo](./0-conceptosBasicos/)
 - Introducción
 - variables
   - declaracion de variables
@@ -60,7 +60,7 @@
 
 
 ## Programacion orientada a objetos
-[ir al capítulo](./ProgramacionOO(OOP)/)
+[ir al capítulo](./1-ProgramacionOO(OOP)/)
 - Importancia
 - Pilares de la OOP
   - Polimorfismo
@@ -78,6 +78,7 @@
 
 
 ## Y el bot? Yo vine por el bot?
+[ir al capítulo](./2-elBot/)
 - Creando un nuevo proyecto
 - Application programming interface (API)
 - API de Discord (o por que preferimos no usarla)
